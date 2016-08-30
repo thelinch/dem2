@@ -1,0 +1,227 @@
+
+@import 'https://fonts.googleapis.com/css?family=Baloo+Chettan';
+body
+{
+ height: 100%;
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Baloo Chettan', cursive;
+}
+.navegacion
+{
+ display: flex;
+	
+font-size: 20px;    
+}
+.navegacion a{
+	display: block;
+	padding: 24px
+}
+.color{
+	color: white;
+}
+.navegacion a:hover{
+	background: rgba(0,0,0,0.5);
+}
+
+.navegacion li{
+	margin: 3px;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+.relative{
+	position: relative;
+}
+.bx-pager-item{
+   display: none;
+}
+
+.outside {
+	display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 98%;
+    z-index: 100;
+
+}
+.outside p  {
+	font-size: 30px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.outside i{
+	cursor: pointer;
+	font-size: 38px;
+	background-color: white;
+	width: 34px;
+	
+}
+.colu{
+	overflow: hidden;
+	margin-bottom: 13px;
+	margin-left: 35px;
+}
+.colu:hover .descripcion{
+	left: 0%;
+}
+
+.descripcion{
+	position:absolute;
+	top: 0%;
+  left: -100%;
+	width: 90%;
+	word-wrap: break-word;
+	background: rgba(0,0,0,.5);
+	font-size: 23px;
+border-radius: 0px 39px 40px 0px;
+	transition: all 1s;
+}
+.descripcion p{
+	color:rgba(255,99,71 ,1);
+}
+.descripcion p::first-letter{
+	color:rgba(199,21,133 ,1);
+	font-size: 22px;
+}
+.foo{
+
+	border-right: 3px solid white;
+}
+
+.icon{
+padding: 30px;
+	display: flex;
+justify-content: space-between;
+	color: white;
+	font-size: 20px;
+}
+.rede a{
+	display: inline-block;
+}
+.imagen
+{
+		width: 100%;
+		height: 100%;
+}
+.Contacto
+{
+	display: block;
+	font-size: 100px;
+	color: rgba(0,119,181 ,1);
+	background: rgba(59,89,153 ,1);
+
+}
+footer{
+	color: white;
+ background: rgba(19,20,24 ,1);
+}
+.rede .icon:hover{
+	background: rgba(0,0,0,0.5);
+}
+.re a{
+	font-size: 23px;
+	color: blue;
+}
+
+img{
+    display: block;
+	max-width: 100%;
+  max-height: 100%;
+   
+}
+.slides{
+		width: 100%;
+		height: 100%;
+}
+.lis{
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-image: url(naruto.jpg);
+		background-size: cover;
+		background-position: -12px -12px;
+		background-repeat: no-repeat;
+}
+/*Navegacion segunda*/
+.segundoMenu{
+    background: rgba(33,33,33 ,1);
+    color: white;
+}
+#columna{
+    padding: 0;
+} 
+.icono{
+    cursor: pointer;
+}
+#contenedormenusegundo{
+    width: 100%;
+    top: 50px;
+    position: absolute;
+    padding: 0;
+    left: -100%;
+    display: block;
+    transition: all 1s ;
+    z-index: 1003;
+}
+.navegacionsegunda{
+   
+    background-color:rgba(57,73,171 ,1);
+    color:#e3f2fd;
+z-index:3000;
+}
+.navegacionsegunda li{
+    border-bottom: 1px solid #fff;
+     
+}
+.rede{
+	display: flex;
+}
+.navegacionsegunda li a{
+    color: aqua;
+    box-shadow: inset 8px 0px rgba(26,35,126 ,1);
+    transition: all 2s ease;
+}
+.navegacionsegunda li a:hover{
+    box-shadow: inset 500px 0px rgba(26,35,126 ,1);
+}
+#contenedormenusegundo.mostrar{
+    left: 0%;
+}
+/*temindo de navegacion2*/
+/*Empieza Primer Menur*/
+.navegacion{
+ 
+}
+
+/*Termina Primer Menur*/
+.menu{
+    display: block;
+  margin-top: 10px;
+   
+}
+.relative
+{ 
+    position: relative;
+}
+ul.navegador{
+    height: 100%;
+  display: flex;
+    width: 100%;
+}
+ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 23px;
+}
+.hei{
+    height: 100%;
+}
+.columnaLogin{
+    border-right: 2px solid grey;
+}
+/*Carrito*/
+
+/*FinCarito*/
